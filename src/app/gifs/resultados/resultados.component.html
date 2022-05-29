@@ -1,0 +1,58 @@
+
+<div class="row">
+    <div class="col">
+        <div class="row">
+            <h3 class="text-white pt-1"><strong>avengers</strong></h3>
+            <small class=" text-white ml-2 pt-3">1424 GIFs</small>
+        </div>
+    </div>
+    <div class="col">
+        <div class="row justify-content-end">
+            <span class="text-white keys-buttons" ><strong>#marvel</strong></span>
+            <span class="text-white keys-buttons" ><strong>#avenger endgame</strong></span>
+            <span class="text-white keys-buttons" ><strong>#avenger</strong></span>
+            <span class="text-white keys-buttons" ><strong>#iron man</strong></span>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h5 class="text-white pt-1">GIPHY Clips</h5>
+    </div>
+    <div class="col ">
+        <div class="row justify-content-end">
+            <i class="fa fa-angle-left flechas" style="opacity: 0.5;"></i>
+            <i class="fa fa-angle-right flechas"></i>
+        </div>
+    </div>
+    
+    
+</div>
+<div class="row">
+    <div  class="mr-3" style="width:23%"><div  style="height:0;padding-bottom:56.25%;position:relative;width:100%"><iframe class="rounded " allowfullscreen="" frameBorder="0" height="100%" src="https://giphy.com/embed/xXyxN66qYwLXkKd3JL/video" style="left:0;position:absolute;top:0" width="100%"></iframe></div></div>
+    <div class="mr-3" style="width:23%"><div  style="height:0;padding-bottom:56.25%;position:relative;width:100%"><iframe class="rounded " allowfullscreen="" frameBorder="0" height="100%" src="https://giphy.com/embed/IjPB6jrO5o1csxqWPf/video" style="left:0;position:absolute;top:0" width="100%"></iframe></div></div>
+    <div class="mr-3" style="width:23%"><div style="height:0;padding-bottom:64.51612903225806%;position:relative;width:100%"><iframe class="rounded " allowfullscreen="" frameBorder="0" height="100%" src="https://giphy.com/embed/bR2PewZQ9IPeegTc2G/video" style="left:0;position:absolute;top:0" width="100%"></iframe></div></div>
+    <div style="width:23%"><div style="height:0;padding-bottom:56.25%;position:relative;width:100%"><iframe class="rounded " allowfullscreen="" frameBorder="0" height="100%" src="https://giphy.com/embed/FxdIBJm1GCxguutXB2/video" style="left:0;position:absolute;top:0" width="100%"></iframe></div></div>
+</div>
+
+<div class="row">
+    <div class="boton-gif col-lg-1 col-md-2 col-xl-2 col-sm-2 my-3 ">
+        <a class="text-white" href="#"><strong>GIFs</strong></a>
+    </div>
+    <div class="boton-stiker col-lg-1 col-md-2 col-xl-2 col-sm-2 my-3 ">
+        <a class="text-white" href="#"><strong>Stikers</strong></a>
+    </div>
+</div>
+
+<div class="row">
+    <div *ngFor="let gif of resultados" class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-6  ">
+        <div class="container-img text-white">
+                <img class="rounded img-fluid" [src]="gif.images.downsized_medium.url"
+                 [alt]="gif.title">
+                 <span class="gif-title">{{gif.title}}</span>
+            <!-- <div class="">
+                <span class="">{{gif.title}}</span>
+            </div> -->
+        </div>
+    </div>
+</div>

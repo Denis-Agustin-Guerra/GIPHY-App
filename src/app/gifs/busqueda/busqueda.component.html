@@ -1,0 +1,41 @@
+<div class="">
+        <div class="row flex-nowrap">
+                <div class="col-lg-1">
+                                <img class="img-fluid" src="../../../assets/img/giphy-animated-logo.gif" alt="">
+                                
+                </div>
+                <div class="col-lg-2 pt-3">
+                        <img class="img-fluid" src="../../../assets/img/GIPHY.jpg" alt=""> 
+                </div>
+                <div class="col pt-3 d-flex">
+                        <span class="boton-nav m-1 p-1">Reactions</span>
+                        <span class="boton-nav m-1 p-1">Entertaiment</span>
+                        <span class="boton-nav m-1 p-1">Sports</span>
+                        <span class="boton-nav m-1 p-1">Stickers</span>
+                        <span class="boton-nav m-1 p-1">Artists</span>
+                        <span class="boton-nav m-1 p-1"><i class="fas fa-ellipsis-v "></i></span>
+                </div>
+                <div class="col-lg-2">
+                        <span class=" m-1" href="">Upload</span>
+                        <span class=" m-1" href="">Create</span> 
+                </div>
+                <div class="col-lg-2">
+                        <i class="fas fa-user-alt"></i>
+                        <span href="#">Login</span>
+                </div>
+                
+        </div>
+        <br/>
+        <div class="col d-flex ">
+                <input 
+                type="text" 
+                class="form-control rounded-0" 
+                placeholder="Search all the Gifts"
+                (keyup.enter)="buscar()"
+                #txtBuscar
+        >
+        <button class="button rounded-0 boton-buscar " (click)="buscar()"><i class="text-white fa fa-search"></i></button>
+        </div>
+        
+</div>
+
