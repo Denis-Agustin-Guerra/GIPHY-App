@@ -21,10 +21,15 @@ body{
     /* background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249); */
     opacity: .8;
 }
+.logo-animado{
+    padding-right: 0%;
+    height: 50px;
+}
 
 .boton-buscar{
     /* background: linear-gradient(to top right, rgb(153, 51, 255), rgb(255, 255, 255),rgb(153, 51, 255)); */
     /* background-color: rgb(153, 51, 255); */
+    cursor: pointer;
     animation: 1s bgrandom infinite ;
 }
 @keyframes bgrandom {
@@ -38,10 +43,61 @@ body{
     100% {background: linear-gradient(to bottom left, rgb(153, 51, 255), rgb(153, 51, 255),rgb(153, 51, 255),rgb(153, 51, 255), rgb(153, 51, 255), rgb(255, 119, 0));}
     }
 .boton-nav{
+    
+    align-items: center;
     color: #fff;
     text-decoration: none;
-    background-color: blueviolet;
+    background-color: #121212;
+    font-size: 20px;
+    padding: 2%;
+    padding-right: 3%;
+    padding-left: 3.1%;
 }
+.img-piphy img{
+    width: 100%;
+}
+.boton-loging{
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 6%;
+    padding-right: 8%;
+    background-color: rgb(60, 59, 59);
+}
+.contenedor-botones-login i{
+    background-color: rgb(41, 41, 41);
+    padding-right: 1%;
+    
+}
+.botones-uc{
+    
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(113,102,255,255);
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-right: 1%;
+
+    align-items: center;
+
+    
+}
+.cabecera img{
+
+}
+.bg-rainbow{
+    background-image: url(../src/assets/img/rainbow-colors-background-cut.jpg);
+    background-size: cover;
+}
+
+.barra-busqueda{
+    padding: 0px;
+    height: 10%;
+}
+
 .keys-buttons{
     height: 35px;
     /* padding: 10px, 15px, 10px, 15px;
@@ -59,7 +115,7 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
-    margin: 0px;
+    margin-left: 1%;
     padding-top: 3px;
     /* padding: 3px, 5px, 0px, 5px; */
     border: 0px;
@@ -70,11 +126,12 @@ body{
     text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
 }
 .keys-buttons strong{
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .boton-nav:hover{
-    color: aqua;
+    cursor: pointer;
+    background-color: rgba(100, 37, 247, 0);
 }
 .flechas{
     background-color: rgb(60, 59, 59);
@@ -161,122 +218,3 @@ body{
 
 }
 
-/* .gif-title{
-    position: absolute;
-} */
-
-/* *, *::before, *::after{
-    border-radius: 0px;
-    border: 0px;
-    outline: none;
-    box-sizing: border-box;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    font-family: inherit;
-
-
-
-    box-sizing: inherit;
-}
-html{
-    box-sizing:border-box;
-    font-size: 62.5%;
-}
-
-
-.site-container{
-
-}
-
-#sidebar{
-    height: 100%;
-    min-height: 100vh;
-    width: 180px;
-}
-
-img{
-    border-radius: 5px;
-    width: 100%;
-}
-.nav{
-    display: flex;
-    flex-direction: column;
-}
-.nav-bar{
-    height: 50px;
-    display: flex;
-}
-.nav img{
-    height: 100%;
-}
-.searhBar{
-    list-style: none;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    font-family: inherit;
-    line-height: normal;
-    color: rgb(0, 0, 0);
-    outline: none;
-    padding: 0px 17px;
-    box-sizing: border-box;
-    appearance: none;
-    border-radius: 0px;
-    font-weight: normal;
-    width: 100%;
-    border: 0px;
-    margin: 0px;
-    z-index: 2;
-    float: left;
-    position: relative;
-    height: 52px;
-    letter-spacing: 1px;
-    font-size: 18px;
-    background-color: transparent;
-}
-
-.content-gifs{
-    display: flex;
-    flex-wrap: wrap;
-    color: rgb(255, 255, 255);
-    letter-spacing: 0px;
-    text-align: left;
-    list-style: none;
-    user-select: none;
-    border-radius: 0px;
-    outline: none;
-    box-sizing: border-box;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    font: inherit;
-    vertical-align: baseline;
-    position: relative;
-    width: 1040px;
-    height: 1098px;
-}
-.img-container{
-    width: fit-content;
-    margin: 5px;
-}
-picture{
-    width: 10%;
-    padding: 0;
-    border: 0;
-
-}
-
-.img-gif{
-    text-align: left;
-    width: auto;
-    height: auto;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-    border: 5px;
-    vertical-align: baseline;
-    display: block;
-    background: rgb(153, 51, 255);
-} */
