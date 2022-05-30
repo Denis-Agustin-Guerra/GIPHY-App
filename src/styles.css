@@ -232,3 +232,13 @@ body{
      }
 
 }
+
+.fade{
+    background-color: #121212;
+    opacity: 1;
+    -webkit-transition: 0.3s;
+   transition: 0.3s;
+}
+.fade:hover {
+    background-color: rgba(18, 18, 18, 0);
+}
