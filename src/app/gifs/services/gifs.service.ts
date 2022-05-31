@@ -10,14 +10,14 @@ export class GifsService {
   private apiKey: string = 'DcyNYhpiM5VQvqfkitkEwLsJxPe0gssh';
   private servicioUrl : string = 'https://api.giphy.com/v1/gifs';
 
-  private _historial: string[] =[];
+  // private _historial: string[] =[];
 
   public resultados: Gif[] = [];
 
-  get historial(){
+  // get historial(){
     
-    return [...this._historial];
-  }
+  //   return [...this._historial];
+  // }
   constructor( private http: HttpClient){
 
     this.resultados= JSON.parse(localStorage.getItem('resultados')!) || [];
