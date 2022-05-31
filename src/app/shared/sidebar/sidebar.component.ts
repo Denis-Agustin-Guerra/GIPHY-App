@@ -7,9 +7,9 @@ import { GifsService } from '../../gifs/services/gifs.service';
 })
 export class SidebarComponent {
 
- get historial(){
-   return this.gifsService.historial;
- }
+//  get historial(){
+//    return this.gifsService.historial;
+//  }
 
 
  constructor ( private gifsService: GifsService){}
